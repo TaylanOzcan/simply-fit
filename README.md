@@ -1,5 +1,7 @@
 # Simply Fit
 
+**Platform :** Android
+
 **Category :** Fitness / Activity Tracking
 
 **The Aim :** This project aims to motivate people to do fitness activities. It offers users an easy way of tracking their activities by providing simple tools such as step counter, walking/running route planner, weight tracking, heart rate measurement.
