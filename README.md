@@ -27,3 +27,4 @@
 ![BMI](https://imagizer.imageshack.com/v2/640x480q90/923/3OQKzW.jpg)
 ![Heart Rate](https://imagizer.imageshack.com/v2/640x480q90/921/R5QBz9.jpg)
 ![Settings](https://imagizer.imageshack.com/v2/640x480q90/924/tB7ih7.jpg)
+![Map](https://imagizer.imageshack.com/v2/640x480q90/924/NfDBRf.jpg)
