@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout_record_topBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="?attr/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView_record_logo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/logo_for_the_top_menu"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView_record_user"
+            app:layout_constraintStart_toEndOf="@+id/imageButton_record_back"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="?android:icon" />
+
+        <ImageView
+            android:id="@+id/imageView_record_user"
+            android:layout_width="30dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
+            android:tint="?android:colorForeground"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/finalproject_user_icon" />
+
+        <ImageButton
+            android:id="@+id/imageButton_record_back"
+            android:layout_width="30dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/finalproject_back_icon"
+            android:tint="?android:colorForeground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="64dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingTop="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout_record_topBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/buttonRecord"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary"
+                android:padding="40dp"
+                android:scaleType="fitCenter"
+                android:tint="?android:colorForeground"
+                app:srcCompat="@drawable/finalproject_record_icon" />
+
+            <ImageButton
+                android:id="@+id/buttonStopRecord"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary"
+                android:padding="40dp"
+                android:scaleType="fitCenter"
+                android:tint="?android:colorForeground"
+                app:srcCompat="@drawable/finalproject_stop_record_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/buttonPlay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary"
+                android:padding="40dp"
+                android:scaleType="fitCenter"
+                android:tint="?android:colorForeground"
+                app:srcCompat="@drawable/finalproject_play_record_icon" />
+
+            <ImageButton
+                android:id="@+id/buttonStop"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary"
+                android:padding="40dp"
+                android:scaleType="fitCenter"
+                android:tint="?android:colorForeground"
+                app:srcCompat="@drawable/finalproject_pause_record_icon" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/buttonAudio"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+            android:tint="?android:colorForeground"
+            app:srcCompat="@drawable/finalproject_nav_music" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

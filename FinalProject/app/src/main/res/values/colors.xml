@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#41BBAA</color>
+    <color name="colorPrimaryDark">#22AA99</color>
+    <color name="colorAccent">#194A72</color>
+    <color name="dark_colorPrimary">#002545</color>
+    <color name="dark_colorPrimaryDark">#001B31</color>
+    <color name="dark_colorAccent">#1EA090</color>
+
+    <color name="colorWindowBackground">#FFFAFAFA</color>
+    <color name="dark_colorWindowBackground">#293449</color>
+
+    <color name="colorForeground">#003663</color>
+    <color name="dark_colorForeground">#AAAAAA</color>
+
+    <color name="textColor">#002B4F</color>
+    <color name="dark_textColor">#BCBCBC</color>
+
+    <color name="colorMenuBackground">#EDEDED</color>
+    <color name="dark_colorMenuBackground">#394352</color>
+
+    <color name="colorStartCircularBar">#4488BB</color>
+    <color name="colorEndCircularBar">#66AAEE</color>
+    <color name="dark_colorStartCircularBar">#228877</color>
+    <color name="dark_colorEndCircularBar">#33CCAA</color>
+
+    <color name="dark_textColorHint">#8A8A8A</color>
+    <color name="colorHeart">#551900</color>
+
+</resources>

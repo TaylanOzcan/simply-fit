@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_weather_map_key" templateMergeStrategy="preserve" translatable="false">a2a624ba599ecb0bf41a545f1c3f040d</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_image_audio"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/finalproject_nav_camera"
+            android:title="@string/take_photo" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/finalproject_nav_gallery"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@drawable/finalproject_nav_audio"
+            android:title="@string/audio" />
+    </group>
+
+    <group
+        android:id="@+id/group_user"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/finalproject_nav_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/finalproject_nav_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

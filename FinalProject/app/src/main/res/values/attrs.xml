@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorDialogBackground" format="reference" />
+    <attr name="colorMenuBackground" format="reference" />
+    <attr name="colorStartCircularBar" format="reference"/>
+    <attr name="colorEndCircularBar" format="reference"/>
+</resources>

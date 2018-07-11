@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoTitleTheme" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorWindowBackground</item>
+        <item name="colorDialogBackground">@color/colorWindowBackground</item>
+        <item name="colorMenuBackground">@color/colorMenuBackground</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:colorForeground">@color/colorForeground</item>
+        <item name="android:fontFamily">@font/century_gothic</item>
+        <item name="colorStartCircularBar">@color/colorStartCircularBar</item>
+        <item name="colorEndCircularBar">@color/colorEndCircularBar</item>
+        <item name="android:icon">@drawable/finalproject_logo2</item>
+        <item name="icon">@drawable/finalproject_logo2</item>
+    </style>
+
+    <style name="NoTitleThemeDark" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/dark_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/dark_colorPrimaryDark</item>
+        <item name="colorAccent">@color/dark_colorAccent</item>
+        <item name="android:windowBackground">@color/dark_colorWindowBackground</item>
+        <item name="colorDialogBackground">@color/dark_colorWindowBackground</item>
+        <item name="colorMenuBackground">@color/dark_colorMenuBackground</item>
+        <item name="android:textColorHint">@color/dark_textColorHint</item>
+        <item name="android:textColor">@color/dark_textColor</item>
+        <item name="android:colorForeground">@color/dark_colorForeground</item>
+        <item name="android:fontFamily">@font/century_gothic</item>
+        <item name="colorStartCircularBar">@color/dark_colorStartCircularBar</item>
+        <item name="colorEndCircularBar">@color/dark_colorEndCircularBar</item>
+        <item name="android:icon">@drawable/finalproject_logo2_dark</item>
+        <item name="icon">@drawable/finalproject_logo2_dark</item>
+    </style>
+
+    <style name="NavigationText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">?android:textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/century_gothic</item>
+    </style>
+
+</resources>
