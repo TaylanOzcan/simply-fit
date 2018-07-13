@@ -8,7 +8,7 @@
 
 **Main Functions:**
 * User Authentication using Firebase
-* User data can be saved on both Firebase and device’s storage
+* User data is saved on Firebase database
 * Weight, height tracking and BMI calculation
 * Step counter
 * Heart rate measurement
