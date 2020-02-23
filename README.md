@@ -5,13 +5,13 @@
 **Category :** Fitness / Activity Tracking
 
 **Main Functions:**
-* User Authentication using Firebase
-* User data is saved on Firebase database
+* User authentication via Firebase
+* User data storage via Firebase database
 * Weight, height tracking and BMI calculation
 * Step counter
 * Heart rate measurement
-* User can see current location and weather conditions on map
-* User can create walking / running routes on map
+* Location and weather tracking on map
+* Walking & running route creation on map
 
 **Sensors Used :**
 * Ambient temperature
@@ -20,6 +20,8 @@
 * Heart Rate
 * GPS
 
+**Warning :**
+The app may be incompatible with some devices, due to lack of any of the needed sensors.
 
 ![Login](https://imagizer.imageshack.com/v2/640x480q90/924/0lzL8r.jpg)
 ![Navigation Drawer](https://imagizer.imageshack.com/v2/640x480q90/921/BdGaki.jpg)
